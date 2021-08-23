@@ -1,19 +1,22 @@
 # mycrud
 
-## Project setup
+## Install JSON and link it to project
 ```
-npm install
+npm install -g json-server
 ```
+
+## Track the "database values" (json file) to see the changes when you CRUD
+```
+npm json-server --watch data/db.json
+```
+
+### update the .env file (on root of application) to the correct localhost link (http://localhost:3000/posts is the default one) // This is used in the async methods to call functions
+```
+VUE_APP_ENV_VARIABLE="http://localhost:3000"
+```
+
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
