@@ -1,7 +1,7 @@
 # MyCRUD
 Vue 3 test CRUD application
 
-In your terminal, please type:
+// Open your terminal first
 
 // to install JSON and link it to project
 
