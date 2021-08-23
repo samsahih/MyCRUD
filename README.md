@@ -20,3 +20,11 @@ VUE_APP_ENV_VARIABLE="http://localhost:3000"
 ```
 npm run serve
 ```
+
+### If 'npm run serve' gives you an error, like it did on my pc right now for some reason, try this:
+```
+npm i
+```
+
+### and then serve again
+npm run serve
