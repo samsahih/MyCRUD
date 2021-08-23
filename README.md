@@ -7,7 +7,7 @@ npm install -g json-server
 
 ## Track the "database values" (json file) to see the changes when you CRUD
 ```
-npm json-server --watch data/db.json
+json-server --watch data/db.json
 ```
 
 ### update the .env file (on root of application) to the correct localhost link (http://localhost:3000/posts is the default one) // This is used in the async methods to call functions
