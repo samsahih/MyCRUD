@@ -9,6 +9,7 @@ npm install -g json-server
 
 
 // This command is used to track the "database values" or in this case the json nodes mimicking database data from an expternal API
+
 json-server --watch data/db.json
 
 
